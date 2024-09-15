@@ -1,0 +1,47 @@
+.modal-header {
+	border-bottom: none;
+}
+
+.p-rel {
+	position: relative;
+}
+
+.signin-form label.form-label,
+.signup-form label.form-label,
+.edit-form label.form-label {
+    position: absolute;
+    top: -13px;
+    left: 5%;
+    background: #ffffff;
+    padding: 0 .5rem;
+}
+
+#editor {
+    height: 100vh;
+}
+
+#previewContainer {
+    height: calc(100vh + 43px);
+}
+
+
+.InputError {
+    border: 2px solid;
+    animation-name: errorframe;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes errorframe {
+    0%   {border-color: #ff0000;}
+    50%  {border-color: #000000;}
+    100% {border-color: #ff0000;}
+}
+
+td button.btn {
+    margin-right: 5px;
+}
+
+#container {
+    border: 1px solid black;
+}
